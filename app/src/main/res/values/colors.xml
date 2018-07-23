@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLineWhite">#e4e4e4</color><!--白底背景线条颜色-->
+    <color name="orange">#FFA500</color><!--关注按钮的正常颜色-->
+    <color name="whilt">#fff</color>
+    <color name="btnstroke">#e4e4d7</color><!--按钮的边框颜色-->
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--我的礼物-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/tab_gift"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mygift"
+            android:textSize="@dimen/large_text_size"
+            android:layout_toRightOf="@+id/iv4"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_gift_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/btn_gift"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/large_text_size"
+            tools:text="@string/toolgift"/>
+
+        <Button
+            android:id="@+id/btn_gift"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_enter_pressed"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--我的等级-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/tab_level"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mylevel"
+            android:textSize="@dimen/large_text_size"
+            android:layout_toRightOf="@+id/iv2"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_level_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/btn_level"
+            android:textSize="@dimen/large_text_size"
+            tools:text="@string/toollevel"/>
+
+        <Button
+            android:id="@+id/btn_level"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_enter_pressed"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
